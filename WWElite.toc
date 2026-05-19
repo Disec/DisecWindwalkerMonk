@@ -1,0 +1,29 @@
+## Interface: 120005
+## Title: |cff00e5ffWWElite|r
+## Notes: Windwalker Rotation Assistant — Midnight 12.0.5
+## Author: You
+## Version: 2.5.0
+## IconTexture: Interface\\Icons\\ability_monk_tigerpalm
+## SavedVariables: WWEliteDB
+## AddonCompartmentFunc: WindWalkerElite_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: WindWalkerElite_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: WindWalkerElite_OnAddonCompartmentLeave
+
+Libs\LibStub.lua
+Libs\LibCustomGlow-1.0\LibCustomGlow-1.0.lua
+
+Core.lua
+Utils.lua
+Talents.lua
+Modes.lua
+EncounterDB.lua
+State.lua
+Procs.lua
+Combat.lua
+Engine.lua
+Recommendations.lua
+Buttons.lua
+GlowManager.lua
+UI.lua
+MinimapButton.lua
+SimcImport.lua
